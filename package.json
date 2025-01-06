@@ -1,0 +1,27 @@
+{
+  "name": "@killiandvcz/satellite",
+  "version": "1.0.0",
+  "description": "Service node implementation for the Helios Broker system",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.js --outdir ./dist",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@killiandvcz/starling": "^1.0.0",
+    "@killiandvcz/pulse": "^1.0.0"
+  },
+  "peerDependencies": {
+    "bun-types": "latest"
+  },
+  "keywords": [
+    "broker",
+    "microservices",
+    "helios",
+    "starling",
+    "service-mesh"
+  ],
+  "author": "Killian DEVEVEY",
+  "license": "MIT"
+}
